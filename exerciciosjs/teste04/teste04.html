@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando JQUERY</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>  
+</head>
+<body>
+    <div><h1>Lista de nomes</h1></div>
+
+    <div>
+        <ul style="font-size: 40px;">
+            <li  class="item_lista">João</li>
+            <li>Maria</li>
+            <li class="item_lista">Pedro</li>
+            <li>José</li>
+            <li class="item_lista">David</li>
+            <li class="item_lista">Junior</li>
+        </ul>
+    </div>
+
+    <div>
+        <button id="btn"> clique aqui!</button>
+    </div>
+
+    <script>
+        $('#btn').on('click', botao)
+
+        function botao(){
+            $('#btn').css({'background-color': 'blue', 'color': 'white'});
+            $('li.item_lista').remove()
+          
+           
+        }
+    </script>
+</body>
+</html>

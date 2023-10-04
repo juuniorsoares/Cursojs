@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste01</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <div><h1>Lista das Listas</h1></div>
+    <ul style="font-size: 35px;">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+
+    <script type="text/javascript">
+
+        //$('ul li').click(function () {
+        //console.log('Conteúdo do item da lista: ' + $(this).text());
+//});
+
+        // l.l$('ul').append('<li>Item 6</li>');
+
+        $('ul').on('click', 'li', function() {
+            console.log('Conteúdo do item da lista: ' + $(this).text() ) ;
+});
+        $('ul').append('<li>Item 6</li>')
+    </script>
+</body>
+</html ;
