@@ -4,8 +4,7 @@ function carregar(){
     var mensagem = window.document.getElementById('paragrafo')
     var data = new Date()
     var minuto = data.getMinutes()
-    //var hora = data.getHours()
-    var hora = 19
+    var hora = data.getHours()
     msg.innerHTML = `Agora são ${hora} horas e ${minuto} minutos.`
     if(hora >= 0 && hora < 12){
         // BOM DIA 
