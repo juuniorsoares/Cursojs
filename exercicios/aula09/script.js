@@ -1,3 +1,6 @@
+
+// EXERCICIO SOBRE VARIAVEIS LOCAIS E GLOBAIS:
+
 // var globalGreeting = "Good ";
 
 // function testFunction() {
@@ -96,6 +99,8 @@
 
 // console.log('-------------------------------');
 
+// EXERCICIOS SOBRE TIPOS DE DADOS:
+
 // let year = 1990;
 // console.log(typeof year); // -> number
 // console.log(typeof 1991); // -> number
@@ -113,6 +118,8 @@
 // let a = 1 / 0;
 // let b = -Infinity;
 
+// EXERCICIOS SOBRE NUMEROS:
+
 // console.log(a); // -> Infinity
 // console.log(b); // -> -Infinity
 // console.log(typeof a); // -> number
@@ -125,6 +132,7 @@
 
 // console.log('-------------------------------');
 
+// EXERCICIOS SOBRE BIGINT:
 // let BigInt = 1n * 34;
 // console.log(BigInt);
 
@@ -136,6 +144,8 @@
 
 // console,log("-------------------------");
 
+// EXERCICIOS SOBRE INTERPOLAÇÃO DE STRINGS:
+
 // let nome = "Junior";
 // let idade = 19;
 
@@ -143,6 +153,8 @@
 // console.log(frase);
 
 // console,log("-------------------------");
+
+// EXERCICIOS SOBRE METODOS:
 
 // let str = "java script languagem";
 // console.log(str.slice(5,11));
