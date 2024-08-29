@@ -25,8 +25,6 @@
 
 // console.log(counter)
 
-// console.log("---------------------");
-
 // 
 
 // console.log("----------------------------")
@@ -89,15 +87,74 @@
 
 // console.log('-------------------------------');
 
-let nome = "Erivaldo Soares Junior";
-let tel = "98 98477-9064";
-let email = "js4617809@gmail.com";
-console.log("nome:", nome);
-console.log("telefone:" , tel);
-console.log("email:", email);
+// let nome = "Erivaldo Soares Junior";
+// let tel = "98 98477-9064";
+// let email = "js4617809@gmail.com";
+// console.log("nome:", nome);
+// console.log("telefone:" , tel);
+// console.log("email:", email);
 
 // console.log('-------------------------------');
 
+// let year = 1990;
+// console.log(typeof year); // -> number
+// console.log(typeof 1991); // -> number
 
+// let name = "Alice";
+// console.log(typeof name); // -> string
+// console.log(typeof "Bob"); // -> string
+
+// let typeOfYear = typeof year;
+// console.log(typeOfYear); // -> number
+// console.log(typeof typeOfYear); // -> string
+
+// console.log('-------------------------------');
+
+// let a = 1 / 0;
+// let b = -Infinity;
+
+// console.log(a); // -> Infinity
+// console.log(b); // -> -Infinity
+// console.log(typeof a); // -> number
+// console.log(typeof b); // -> number
+
+// let p = "it's definitely not a number";
+// let n = p * 10;
+// console.log(n); // -> NaN
+// console.log(typeof n); // -> number
+
+// console.log('-------------------------------');
+
+// let BigInt = 1n * 34;
+// console.log(BigInt);
+
+// console.log("-----------------------------------");
+
+// let path = "C:\\Windows";
+// console.log(path); // -> C:\Windows
+// console.log(typeof path);
+
+// console,log("-------------------------");
+
+// let nome = "Junior";
+// let idade = 19;
+
+// let frase = `${nome} tem ${idade} anos.`;
+// console.log(frase);
+
+// console,log("-------------------------");
+
+// let str = "java script languagem";
+// console.log(str.slice(5,11));
+
+// console,log("-------------------------");
+
+// let str = "java script languagem";
+// console.log(str.charAt(10));
+
+// console,log("-------------------------");
+
+// let str = "java script languagem";
+// console.log(str.split(" "));
 
 
