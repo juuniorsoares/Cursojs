@@ -42,25 +42,35 @@
 // console.log(selectedlivros)
 
 
-let contacts = [{
-    name: "Maxwell Wright",
-    phone: "(0191) 719 6495",
-    email: "Curabitur.egestas.nunc@nonummyac.co.uk"
-    }, {
-    name: "Raja Villarreal",
-    phone: "0866 398 2895",
-    email: "posuere.vulputate@sed.com"
-    }, {
-    name: "Helen Richards",
-    phone: "0800 1111",
-    email: "libero@convallis.edu"
-    }];
+// let contacts = [{
+//     name: "Maxwell Wright",
+//     phone: "(0191) 719 6495",
+//     email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+//     }, {
+//     name: "Raja Villarreal",
+//     phone: "0866 398 2895",
+//     email: "posuere.vulputate@sed.com"
+//     }, {
+//     name: "Helen Richards",
+//     phone: "0800 1111",
+//     email: "libero@convallis.edu"
+//     }];
 
-let NovoContato = {
-    name: "Mariana Barros",
-    phone: "(98) 98477-9064",
-    email: "marianabarros@gmail.com"
-}
+// let NovoContato = {
+//     name: "Mariana Barros",
+//     phone: "(98) 98477-9064",
+//     email: "marianabarros@gmail.com"
+// }
 
-contacts.push(NovoContato)
-console.log(contacts)
+// contacts.push(NovoContato)
+// console.log(contacts)
+
+// let animals = ["dog", /*"cat"*/, "hamster"];
+// animals.pop();
+// console.log(animals)
+
+// let age = 32;
+// age = age + 1;
+// console.log(age);
+
+// let x = 20n + 10;
