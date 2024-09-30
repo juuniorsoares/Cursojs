@@ -19,7 +19,9 @@
 //     age: 66,
 //     email: "CalvinMHart@teleworm.us"
 // };
-// console.log(user1.name, user1.surname);
+// user1.name = "João"; // ALTERANDO PROPRIEDADE ORIGINAL DO NOME
+// user1.age = 19  // ALTERANDO A PROPRIEDADE ORIGINAL DA IDADE 
+// console.log(user1.name, user1.age);
 
 // let user2 = {
 //     name: "Mateus",
