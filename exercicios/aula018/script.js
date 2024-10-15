@@ -56,12 +56,28 @@
 // console.log(b); // -> 200
 // console.log(c); // -> 300
 
-let a = 200, b = 100;
-function test(a){
-    let b = 15;
-    console.log(a);
-    console.log(b);
-}
-test(1)
-console.log(a);
-console.log(b);
+// let a = 200, b = 100;
+// function test(a){
+//     let b = 15;
+//     console.log(a);
+//     console.log(b);
+// }
+// test(1)
+// console.log(a);
+// console.log(b);
+
+// let soma = add(5, 5);
+// console.log(soma);
+
+// function add(first, second) {
+//     return first + second;
+//     }  
+
+// let result = add(5, 7);
+// console.log(result); // -> 12
+
+// let names = ['Alice', 'Eve', 'John'];
+// function showName(element) {
+//     console.log(element);
+// }
+// names.forEach(showName); // -> Alice, Eve, John
