@@ -1,37 +1,37 @@
 
-// class Vehicle { 
-//     constructor({id, latitude, longitude}){ 
-//         this.id = id; 
-//         this.position = {latitude, longitude}; 
-//         this.status = "unavailable"; 
-//     };
-//     set position({latitude, longitude}) { 
-//         this.time = Date.now(); 
-//         this.longitude = longitude; 
-//         this.latitude = latitude; 
-//     };
-//     get position() { 
-//         return { 
-//             latitude: this.latitude, 
-//             longitude: this.longitude 
-//         }; 
-//     };
-// };
+class Vehicle { 
+    constructor({id, latitude, longitude}){ 
+        this.id = id; 
+        this.position = {latitude, longitude}; 
+        this.status = "unavailable"; 
+    };
+    set position({latitude, longitude}) { 
+        this.time = Date.now(); 
+        this.longitude = longitude; 
+        this.latitude = latitude; 
+    };
+    get position() { 
+        return { 
+            latitude: this.latitude, 
+            longitude: this.longitude 
+        }; 
+    };
+};
 
-// class Bus extends Vehicle {
-//     constructor({assentos,id, latitude, longitude}){
-//         super({id, latitude, longitude})
+class Bus extends Vehicle {
+    constructor({assentos,id, latitude, longitude}){
+        super({id, latitude, longitude})
 
-//         this.assentos = assentos;
-//     }
-// }
+        this.assentos = assentos;
+    }
+}
 
-// let vehicle = new Vehicle({longitude: 18.213423, latitude: 59.367628, id: "AL1024"});
-// vehicle.position = {longitude: 18.193121, latitude: 59.378654};
-// console.log(vehicle.position);
-// let bus = new Bus({assentos: 10, longitude: 19.0987, latitude: 12.88776, id:"A9PO09"})
-// console.log(bus.id)
-// console.log(bus.latitude)
+let vehicle = new Vehicle({longitude: 18.213423, latitude: 59.367628, id: "AL1024"});
+vehicle.position = {longitude: 18.193121, latitude: 59.378654};
+console.log(vehicle.position);
+let bus = new Bus({assentos: 10, longitude: 19.0987, latitude: 12.88776, id:"A9PO09"})
+console.log(bus.id)
+console.log(bus.latitude)
 
 
 
